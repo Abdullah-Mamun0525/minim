@@ -1,0 +1,237 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: 'Playfair Display', serif;
+	color:#626262;
+}
+/*header start*/
+header{}
+.container{
+	width:90%;
+	margin: 0 auto;
+	/*border:3px solid black;*/
+	overflow: hidden;
+
+
+}
+.logo{
+	width:12%;
+	float:left;
+	/*border:2px solid red;*/
+	margin-top:25px;
+}
+
+}*/
+.logo img{
+	width:100%;
+}
+.menu{
+	width:70%;
+	float:right;
+	
+}
+.menu ul{
+	float:right;
+
+}
+.menu ul li{
+	list-style: none;
+	float:left;
+}
+.menu ul li a{
+	text-decoration:none;
+	padding:35px 50px;
+	display:block;
+	color:#626262;
+	transition: .5s;
+}
+.menu ul li:last-child a{
+	padding-right:0;
+
+}
+.menu ul li a:hover{
+	color:#000000;
+}
+/*header end*/
+
+/*banner start*/
+.banner{}
+.banner_content img{
+	width:100%;
+}
+/*banner end*/
+
+/*perfect start*/
+.perfect{
+	padding:50px 0;
+}
+.container2{
+	width:80%;
+	margin:0 auto;
+	overflow:hidden;
+	/*border:1px solid red;*/
+}
+.perfect_content{}
+.perfect_content h1{
+	font-weight: 400;
+	font-size: 30px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	/*padding: 20px 0;*/
+}
+.perfect_content .text{
+	font-size:14px;
+	line-height:1.7;
+	margin-bottom:40px;
+}
+.commom{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	color:#b4ad9e;
+}
+/*perfect end*/
+/*blog start*/
+.blog{
+	padding: 60px 0;
+}
+.single{
+	width:40%;
+	float:left;
+	padding-bottom: 50px;
+}
+.single:nth-child(even) {
+	margin-left: 18%;
+
+}
+.single img{
+	width:100%;
+	margin-bottom:20px;
+}
+.single h1{
+	font-weight:400;
+	font-size: 30px;
+	margin: 20px 0;
+
+}
+.single p:last-child {
+	font-size: 14px;
+	line-height:1.5;
+
+}
+/*blog end*/
+/*newsletter start*/
+/*newsletter start*/
+.newsletter {
+	padding: 50px 0;
+	background-color: #f0f0f0;
+}
+.container4 {
+	width: 60%;
+	margin: 0 auto;
+}
+.signup {
+	text-align: center;
+}
+.signup h1 {
+	font-size: 30px;
+	font-weight: 400;
+	color: #333333;
+	margin-bottom: 50px;
+}
+.form1 {
+	width: 350px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	position: relative;
+}
+.form1 input{
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid black;
+	width: 320px;
+	font-size: 18px;
+	padding: 10px 10px;
+	outline: none;
+}
+.form1 button{
+	border: none;
+	background: transparent;
+	position: absolute;
+	top: 14px;
+    right: 10px;
+}
+
+/*newsletter end*/
+/*newsletter end*/
+/*blog2 start*/
+.blog2{
+	padding: 90px 0;
+
+}
+/*blog2 end*/
+/*button start*/
+.btn{}
+.container3{
+	text-align: center;
+}
+.container3 button{
+	padding: 30px 70px;
+	font-size: 24px;
+	border: none;
+	border: 1px solid black;
+	background: transparent;
+	transition: .5s;
+}
+.container3 button:hover{
+	color:white;
+	background-color:#626262;
+	border: 1px solid #ffffff;
+}
+/*button end*/
+/*footer start*/
+/*footer start*/
+footer {
+	margin-bottom: 50px;
+}
+.footer-menu {}
+.footer-menu ul {
+	/*float: right;*/
+}
+.footer-menu ul li {
+	list-style: none;
+	float: left;
+}
+.footer-menu ul li a {
+	display: block;
+	text-decoration: none;
+	padding: 12px 15px;
+	color: black;
+	font-weight: bold;
+	transition: .5s;
+}
+.footer-menu ul li a:hover {
+	color: #626262;
+
+}
+.icons {}
+.icons ul {}
+.icons ul li {
+	list-style: none;
+	float: right;
+}
+.icons ul li a {
+	display: block;
+	text-decoration: none;
+	padding: 12px 15px;
+	color: #626262;
+	font-weight: bold;
+	transition: .5s;
+}
+.icons ul li a:hover {
+	color: black;
+}
+
+/*footer end*/
